@@ -1,0 +1,64 @@
+@import './vars';
+@import './reset';
+
+@import './components/header/search';
+@import './components/header/header';
+@import './components/header/burger_menu';
+@import './components/main/main';
+@import './components/main/main_chat';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+body {
+    background: $background-gradient; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    overflow: hidden;    
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .text-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .text-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.visually-hidden {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}

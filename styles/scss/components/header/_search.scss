@@ -1,0 +1,13 @@
+.search__field { 
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+    background-color: rgb(216, 216, 216);
+}
+
+.search__field:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}

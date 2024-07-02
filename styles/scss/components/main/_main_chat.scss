@@ -1,0 +1,115 @@
+.main__chat {
+    border-bottom-right-radius: 30px;
+    width: 70%;
+    background-image: radial-gradient(at center , #fafafa, #7b5a80);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px 20px 80px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+        .message__date-day { 
+            background-color: #503b53;
+            padding: 20px;
+            border-radius: 30px;
+            text-align: center;
+            max-width: 150px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .depatured__messages {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+            background-color: #d7f7f0;
+            border-radius: 30px;
+            padding: 15px 20px 10px;
+            gap: 10px;
+        }
+
+        .message-text {
+            display: flex;
+            align-self: flex-start;
+            color: black;
+        }
+
+        .time-seen__wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-self: flex-end;
+            .icon {
+                width: 20px;
+                height: 20px;
+            }
+
+            .message-time {
+                color:grey;
+            }
+        }
+
+        .arrived__messages {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+            background-color: #ffffff;
+            border-radius: 30px;
+            padding: 15px 20px 10px;
+            gap: 10px;
+        }
+
+        .message-text {
+            display: flex;
+            align-self: flex-start;
+            color: black;
+        }
+
+        .time-seen__wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-self: flex-end;
+            .icon {
+                width: 20px;
+                height: 20px;
+            }
+
+            .message-time {
+                color:grey;
+            }
+        }
+
+        
+}
+
+textarea {
+    letter-spacing: 1px;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    width: 100%;
+    height: 2vh;
+    display: flex;
+  }
+
+  
+  
+.message__area { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 30px;
+    gap:20px;
+}
